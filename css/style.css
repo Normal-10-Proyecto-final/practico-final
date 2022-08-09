@@ -7,14 +7,14 @@
     font-family: "Open Sans", sans-serif;
 }
 body{
-    background-color: #000;
+    background-color: white;
 }
 .logo_css img{
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 190px;
     margin-top: -5%;
     padding: 0%;
-    position: fixed;
+    position: absolute;
 }
 .header {
     background-color: white;
@@ -25,6 +25,7 @@ body{
     display:inline-block;
     
   }
+
   .online input {
     padding: 1.3em 2em;
     font-size: 12px;
@@ -34,14 +35,14 @@ body{
     color: #000;
     background-color: #fffdf6;
     border: none;
-    border-radius: 45px;
+    border-radius: 15px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
     float: right;
     display: relative;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: -1%;
   }
   
@@ -55,3 +56,72 @@ body{
     color: #fff;
     transform: translateY(-7px);
   }
+  .home1 {
+    margin: 5% 0;
+    display: grid;
+    justify-content: center;
+    gap: 6rem;
+    grid-auto-rows: 10rem;
+    grid-template-columns: repeat(3, minmax(10rem, 20rem));
+    grid-auto-flow: dense;
+  }
+  
+  .home1 .card1 {
+    max-width: 100%;
+    overflow: hidden;
+    padding: 1rem;
+    background: #fffdf6;
+    border-radius: 5px;
+    box-shadow: 0 0.3rem 0.3rem 0.2rem #919191;
+    transition: all 0.25s;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .card1 a {
+    text-decoration: none;
+  }
+  
+  .icon {
+    display: flex;
+    max-block-size: 5rem;
+    position: relative;
+    margin-bottom: 25px;
+    align-items: center;
+  }
+  
+  .home1 .card1:hover {
+    transform: translateY(-15px);
+    box-shadow: 5px 5px 10px 5px #6f6e6e;
+    background-color: #fffdf6;
+    transform: translateY(-8px);
+  }
+  
+  .home1 .card1:active {
+    transform: translateY(2px);
+  }
+  
+  .card-header1 {
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 0rem;
+  }
+  
+  .text-card {
+    justify-content: center;
+    text-align: center;
+  
+    font-size: 1rem;
+    font-style: normal;
+    color: #f5da28;
+    cursor: pointer;
+  }
+ .banner{
+  margin-left: 10px;
+ }

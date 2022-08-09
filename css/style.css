@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fredoka:wght@300&family=Smooch&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: #000;
+}
+.logo_css img{
+    width: 200px;
+    height: 150px;
+    margin-top: -5%;
+    padding: 0%;
+    position: fixed;
+}
+.header {
+    background-color: white;
+    color: black;
+    padding: 3rem 0rem;
+    height: min-content;
+    width: 100%;
+    display:inline-block;
+    
+  }
+  .online input {
+    padding: 1.3em 2em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 100;
+    color: #000;
+    background-color: #fffdf6;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    float: right;
+    display: relative;
+    margin-left: 10px;
+    margin-top: -1%;
+  }
+  
+  .online input:active {
+    transform: translateY(-1px);
+  }
+  
+  .online input:hover {
+    background-color: #f5da28;
+    box-shadow: 0px 10px 20px rgba(194, 194, 194, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
